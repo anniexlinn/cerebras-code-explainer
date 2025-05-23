@@ -1,5 +1,14 @@
 # Cerebras Code Explainer
 
-# A real-time code explanation tool using Cerebras's Qwen3 model.
+## Features
+- Real-time code explanations using Qwen3
+- Interactive CLI interface
+- Response time metrics
 
+## Setup
+1. `pip install -r requirements.txt`
+2. Add Cerebras API key to `.env`
 
+## Usage
+```bash
+python main.py
