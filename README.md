@@ -17,3 +17,18 @@ A real-time code explanation tool powered by Cerebras's Qwen3 model, delivering 
 ## Usage
 ```bash
 python3 main.py
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/cerebras-code-explainer.git
+cd cerebras-code-explainer
+
+# Create and activate virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
